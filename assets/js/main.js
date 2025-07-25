@@ -5,6 +5,7 @@
   updateHardSkills(profileData);
   updateLanguages(profileData);
   updatePortfolio(profileData);
+  updateExperience(profileData);
 })();
 
 function uptadeProfileData(profileData) {
@@ -63,6 +64,18 @@ function updatePortfolio(profileData) {
   portfolio.innerHTML = profileData.portfolio
     .map((portfolio) => {
       return `<li><h3 class="title github">${portfolio.nome}</h3> <a href="${portfolio.gitHub}" target="_blank">${portfolio.gitHub}</a></li>`;
+    })
+    .join('');
+}
+
+function updateExperience(profileData) {
+  const experience = document.querySelector('.experience');
+
+  experience.innerHTML = profileData.experiencias
+    .map((experiencia) => {
+      return `<li><h3 class="title experience-title">${experiencia.nome} / ${experiencia.instituicao}</h3>
+      <p class="period experience-period">${experiencia.periodo.inicio} - ${experiencia.periodo.fim}</p>
+      <p>${experiencia.descricao}</p></li>`;
     })
     .join('');
 }
