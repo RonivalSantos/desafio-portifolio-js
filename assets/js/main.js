@@ -31,6 +31,7 @@ function updateSoftSkills(profileData) {
   const softSkills = document.getElementById('profile-skills-softskills');
 
   softSkills.innerHTML = profileData.skills.softSkills
-    .map(skill => `<li>${skill}</li>`)
+    .map((skill) => `<li>${skill}</li>`)
     .join('');
+  console.log(softSkills);
 }
