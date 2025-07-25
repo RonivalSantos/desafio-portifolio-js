@@ -3,6 +3,7 @@
   uptadeProfileData(profileData);
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
+  updateLanguages(profileData);
 })();
 
 function uptadeProfileData(profileData) {
@@ -44,5 +45,13 @@ function updateHardSkills(profileData) {
       (skill) =>
         `<li><img src="${skill.logo}" alt="${skill.nome}" title="${skill.nome}"/></li>`,
     )
+    .join('');
+}
+
+function updateLanguages(profileData) {
+  const languages = document.querySelector('.languages');
+
+  languages.innerHTML = profileData.languages
+    .map((language) => `<li>${language.nome}</li>`)
     .join('');
 }
