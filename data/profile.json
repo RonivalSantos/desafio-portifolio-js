@@ -69,13 +69,22 @@
   ],
   "experiencias": [
     {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
+      "nome": "Desenvolvedor Front-End Freelancer",
+      "instituicao": "Projetos Pessoais e Freelance",
       "periodo": {
-        "inicio": "03/2021",
+        "inicio": "08/2023",
         "fim": "Atualmente"
-      }
+      },
+      "descricao": "Desenvolvimento de landing pages responsivas, sites institucionais e páginas interativas com HTML, CSS, JavaScript e React. Realizei projetos desde a concepção do layout até a publicação no GitHub Pages, com foco em performance, usabilidade e acessibilidade."
+    },
+    {
+      "nome": "Criador de Conteúdo e Portfólio Web",
+      "instituicao": "Projeto Pessoal",
+      "periodo": {
+        "inicio": "01/2024",
+        "fim": "04/2024"
+      },
+      "descricao": "Criação de um portfólio profissional para apresentar habilidades como desenvolvedor front-end. Utilizei HTML, CSS e JavaScript puro, com foco em modularização de código e consumo dinâmico de dados via JSON. Projeto publicado no GitHub e utilizado como vitrine para candidaturas."
     }
   ]
 }
