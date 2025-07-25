@@ -41,14 +41,14 @@
       "Trabalho em equipe"
     ]
   },
-  "idiomas": [
+  "languages": [
     {
       "nome": "Português",
       "nivel": "Nativo"
     },
     {
       "nome": "Inglês",
-      "nivel": "Intermediário"
+      "nivel": "Básico"
     },
     {
       "nome": "Espanhol",
@@ -117,14 +117,14 @@
   ],
   "portfolio": [
     {
-      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+      "nome": "Criando um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS (DIO)",
+      "gitHub": "https://github.com/RonivalSantos/Yu-Gi-Oh-Jo-Ken-Po-Edition",
+      "certificado": "https://assets.dio.me/dJEj7dHdOhhOYo6uCGlZEqSOizpd2Y_L0Ic4Ra3w3Po/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9TT1FOSjFaVS5qcGc"
     },
     {
-      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "nome": "Construindo uma Pokédex com JavaScript (DIO)",
+      "gitHub": "https://github.com/RonivalSantos/pokedex",
+      "certificado": "https://assets.dio.me/Nf80vW7C5wi2tc7Q8TsP4pjuN0XBZev6JBc-VpSRsxo/f:webp/h:320/q:70/w:450/L2NlcnRpZmljYXRlcy9jb3Zlci9DWFBTWU9OVi5qcGc"
     }
   ],
   "experiencias": [
