@@ -1,6 +1,7 @@
 (async function () {
   const profileData = await fetchProfileData();
   uptadeProfileData(profileData);
+  updateSoftSkills(profileData);
 })();
 
 function uptadeProfileData(profileData) {
@@ -24,4 +25,12 @@ function uptadeProfileData(profileData) {
   const email = document.querySelector('.profile-email');
   email.innerText = profileData.email;
   email.href = `mailto:${profileData.email}`;
+}
+
+function updateSoftSkills(profileData) {
+  const softSkills = document.getElementById('profile-skills-softskills');
+
+  softSkills.innerHTML = profileData.skills.softSkills
+    .map(skill => `<li>${skill}</li>`)
+    .join('');
 }
