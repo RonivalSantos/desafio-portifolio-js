@@ -12,16 +12,24 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
-        "logo": "TODO"
+        "nome": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/RonivalSantos/desafio-portifolio-js/e0b6acdad6e9d5fb73cfe41d3552f1653b96a7c9/assets/img/icons/tools/js.svg"
       },
       {
-        "nome": "Java",
-        "logo": "TODO"
+        "nome": "React",
+        "logo": "https://raw.githubusercontent.com/RonivalSantos/desafio-portifolio-js/e0b6acdad6e9d5fb73cfe41d3552f1653b96a7c9/assets/img/icons/tools/react.svg"
       },
       {
-        "nome": "Kotlin",
-        "logo": "TODO"
+        "nome": "HTML",
+        "logo": "https://raw.githubusercontent.com/RonivalSantos/desafio-portifolio-js/e0b6acdad6e9d5fb73cfe41d3552f1653b96a7c9/assets/img/icons/tools/html.svg"
+      },
+      {
+        "nome": "CSS",
+        "logo": "https://raw.githubusercontent.com/RonivalSantos/desafio-portifolio-js/e0b6acdad6e9d5fb73cfe41d3552f1653b96a7c9/assets/img/icons/tools/css.svg"
+      },
+      {
+        "nome": "TypeScript",
+        "logo": "https://raw.githubusercontent.com/RonivalSantos/desafio-portifolio-js/e0b6acdad6e9d5fb73cfe41d3552f1653b96a7c9/assets/img/icons/tools/ts.svg"
       }
     ],
     "softSkills": [
